@@ -1,0 +1,33 @@
+body {
+    font-family:arial;
+}
+table, td, th {
+    border:1px solid black;
+    border-collapse:collapse;
+}
+table {
+    table-layout:fixed;
+    width:32%;
+}
+td, th {
+    height:80px;
+}
+caption {
+    caption-side:bottom;
+    font-size:20px;
+}
+.yellow {
+    background-color:yellow;
+}
+.green {
+    background-color:lawngreen;
+}
+.blue {
+    background-color:dodgerblue;
+}
+.red {
+    background-color:red;
+}
+.black {
+    background-color:black;
+}
