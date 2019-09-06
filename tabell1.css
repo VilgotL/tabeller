@@ -1,0 +1,44 @@
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    table-layout:fixed;
+    width:50%;
+}
+td, th {
+    height:30px;
+}
+body {
+    font-family: arial;
+}
+th {
+    background-color:lightgray;
+}
+caption {
+    caption-side:bottom;
+    font-size:30px;
+}
+tr:nth-child(2) {
+    background-color:gold;
+}
+tr:nth-child(3) {
+    background-color:crimson;
+    color:lightgray;
+}
+tr:nth-child(4) {
+    background-color:gold;
+}
+tr:nth-child(5) {
+    background-color:crimson;
+    color:lightgray;
+}
+.center {
+    text-align:center;
+}
+.right {
+    text-align:right;
+}
+.left {
+    text-align:left;
+}
